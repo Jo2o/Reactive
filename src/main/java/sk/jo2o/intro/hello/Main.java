@@ -1,7 +1,6 @@
-package sk.jo2o.hello;
+package sk.jo2o.intro.hello;
 
 import io.reactivex.rxjava3.core.Observable;
-import java.util.concurrent.TimeUnit;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 
@@ -19,7 +18,7 @@ public class Main {
             }
         );
        
-        producer.subscribe(str -> log.info("Observer 1 - consumed: {}", str));
+        producer.subscribe(str -> log.info("Observer 1 - consumed: {}", str)); // ??? CompletableOnSubscribe consumer1 = str -> log.info("Observer 1 - consumed: {}", str);
         producer.subscribe(str -> log.info("Observer 2 - consumed: {}", str));
     }
 }

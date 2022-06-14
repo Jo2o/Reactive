@@ -1,4 +1,4 @@
-package sk.jo2o.pushvspull;
+package sk.jo2o.intro.pushvspull;
 
 public interface MyCallback {
     void pushData(String data);

@@ -1,4 +1,4 @@
-package sk.jo2o.callbackhell;
+package sk.jo2o.intro.callbackhell;
 
 import java.util.concurrent.TimeUnit;
 import lombok.SneakyThrows;

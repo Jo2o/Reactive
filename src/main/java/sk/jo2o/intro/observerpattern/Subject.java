@@ -1,4 +1,4 @@
-package sk.jo2o.observerpattern;
+package sk.jo2o.intro.observerpattern;
 
 public interface Subject {
     void subscribeObserver(Observer observer);
